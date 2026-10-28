@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnAdauga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/adauga" />
+
+    <Button
+        android:id="@+id/btnAdaugaAI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/adauga_ai" />
+
+    <TextView
+        android:id="@+id/tvRezultat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/nimic_adaugat"
+        android:textSize="18sp" />
+
+</LinearLayout>

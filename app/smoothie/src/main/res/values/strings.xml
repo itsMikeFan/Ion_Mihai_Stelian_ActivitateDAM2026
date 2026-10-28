@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Smoothie</string>
+    <string name="adauga">Adaugă smoothie</string>
+    <string name="adauga_ai">Adaugă smoothie (design AI)</string>
+    <string name="nimic_adaugat">Niciun smoothie adăugat încă</string>
+    <string name="titlu_adauga">Smoothie nou</string>
+    <string name="nume">Nume</string>
+    <string name="fruct">Fruct principal</string>
+    <string name="marime">Mărime</string>
+    <string name="cu_gheata">Cu gheață</string>
+    <string name="vegan">Vegan</string>
+    <string name="rating">Rating</string>
+    <string name="salveaza">Salvează</string>
+    <string name="eroare_nume">Introdu un nume</string>
+    <string-array name="fructe">
+        <item>Căpșuni</item>
+        <item>Banană</item>
+        <item>Mango</item>
+        <item>Afine</item>
+    </string-array>
+</resources>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF3F8"
+    android:clipToPadding="false"
+    tools:context=".AdaugaSmoothieAIActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="@string/titlu_adauga"
+            android:textColor="#C2185B"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="4dp"
+            xmlns:app="http://schemas.android.com/apk/res-auto">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nume"
+                    android:textColor="#880E4F"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/etNume"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:autofillHints="name"
+                    android:backgroundTint="#E91E63"
+                    android:inputType="text" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/fruct"
+                    android:textColor="#880E4F"
+                    android:textStyle="bold" />
+
+                <Spinner
+                    android:id="@+id/spFruct"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/marime"
+                    android:textColor="#880E4F"
+                    android:textStyle="bold" />
+
+                <RadioGroup
+                    android:id="@+id/rgMarime"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/rbS"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:buttonTint="#E91E63"
+                        android:text="S" />
+
+                    <RadioButton
+                        android:id="@+id/rbM"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:buttonTint="#E91E63"
+                        android:checked="true"
+                        android:text="M" />
+
+                    <RadioButton
+                        android:id="@+id/rbL"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:buttonTint="#E91E63"
+                        android:text="L" />
+                </RadioGroup>
+
+                <CheckBox
+                    android:id="@+id/cbGheata"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:buttonTint="#E91E63"
+                    android:text="@string/cu_gheata" />
+
+                <Switch
+                    android:id="@+id/swVegan"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:text="@string/vegan"
+                    android:thumbTint="#E91E63"
+                    tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/rating"
+                    android:textColor="#880E4F"
+                    android:textStyle="bold" />
+
+                <RatingBar
+                    android:id="@+id/rbRating"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:numStars="5"
+                    android:progressTint="#FFB300"
+                    android:stepSize="0.5" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <Button
+            android:id="@+id/btnSalveaza"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#E91E63"
+            android:text="@string/salveaza"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+</ScrollView>
