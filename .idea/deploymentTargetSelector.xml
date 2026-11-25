@@ -2,10 +2,6 @@
 <project version="4">
   <component name="deploymentTargetSelector">
     <selectionStates>
-      <SelectionState runConfigName="app.smoothie">
-        <option name="selectionMode" value="DROPDOWN" />
-        <DialogSelection />
-      </SelectionState>
       <SelectionState runConfigName="app.seminar4">
         <option name="selectionMode" value="DROPDOWN" />
         <DialogSelection />
@@ -15,6 +11,14 @@
         <DialogSelection />
       </SelectionState>
       <SelectionState runConfigName="app.seminar8">
+        <option name="selectionMode" value="DROPDOWN" />
+        <DialogSelection />
+      </SelectionState>
+      <SelectionState runConfigName="app.smoothie">
+        <option name="selectionMode" value="DROPDOWN" />
+        <DialogSelection />
+      </SelectionState>
+      <SelectionState runConfigName="app.seminar9">
         <option name="selectionMode" value="DROPDOWN" />
         <DialogSelection />
       </SelectionState>
